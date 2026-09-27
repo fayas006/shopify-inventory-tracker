@@ -1,4 +1,5 @@
 from datetime import datetime
+import os
 
 from sqlalchemy import (
     Boolean,
@@ -18,7 +19,7 @@ from sqlalchemy.orm import (
 )
 
 
-DATABASE_URL = "sqlite:///tracker.db"
+DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./tracker.db")
 
 
 class Base(DeclarativeBase):
