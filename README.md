@@ -73,7 +73,7 @@ shopify-inventory-tracker/
 Clone the repository:
 
 ``` bash
-git clone <your-repository-url>
+git clone https://github.com/fayas006/shopify-inventory-tracker
 cd shopify-inventory-tracker
 ```
 
