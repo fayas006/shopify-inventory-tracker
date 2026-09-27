@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1001,
+    "title": "Sample Black T-Shirt",
+    "handle": "sample-black-t-shirt",
+    "body_html": "<p>Sample product for demonstration.</p>",
+    "variants": [
+      {
+        "id": 2001,
+        "title": "S",
+        "price": "599.00",
+        "available": true
+      },
+      {
+        "id": 2002,
+        "title": "M",
+        "price": "599.00",
+        "available": true
+      },
+      {
+        "id": 2003,
+        "title": "L",
+        "price": "599.00",
+        "available": true
+      }
+    ],
+    "images": [
+      {
+        "src": "https://example.com/sample-shirt.jpg"
+      }
+    ]
+  }
+
+  ,
+  {
+  "id": 1002,
+  "title": "Sample White Hoodie",
+  "handle": "sample-white-hoodie",
+  "body_html": "<p>Second sample product.</p>",
+  "variants": [
+    {
+      "id": 2004,
+      "title": "M",
+      "price": "899.00",
+      "available": true
+    }
+  ],
+  "images": [
+    {
+      "src": "https://example.com/sample-hoodie.jpg"
+    }
+  ]
+}
+]

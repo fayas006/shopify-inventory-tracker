@@ -1,0 +1,35 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Local/generated data
+ai_data.json
+ai_latest_changes.json
+tracker.db
+images/
+cloud-data/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Private store configuration
+config/stores.json

@@ -1,0 +1,19 @@
+{
+  "stores": [
+    {
+      "code": "store1",
+      "name": "My First Store",
+      "url": "https://store1.myshopify.com"
+    },
+    {
+      "code": "store2",
+      "name": "My Second Store",
+      "url": "https://store2.myshopify.com"
+    },
+    {
+      "code": "store3",
+      "name": "My Third Store",
+      "url": "https://store3.myshopify.com"
+    }
+  ]
+}
